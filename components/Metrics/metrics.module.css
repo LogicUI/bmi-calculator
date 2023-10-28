@@ -1,0 +1,52 @@
+
+.customRadio input[type="radio"] {
+    display:none;
+}
+
+.customRadio label {
+    padding-left:30px;
+    position:relative;
+    cursor: pointer;
+}
+
+.customRadio input[type="radio"]{
+    display:none;
+}
+
+
+.customRadio input[type="radio"]:checked + label:before {
+    background-color: #345FF6; 
+}
+
+.customRadio input[type="radio"]:checked + label:after {
+    background-color: #345FF6; 
+    content: "";
+    position: absolute;
+    left:0;
+    top:50%;
+    transform: translate(-15%,-50%); 
+    width:30px;
+    height:30px;
+    border-radius: 50%;
+    opacity:20%;
+    background-color: #345FF6;
+}
+
+
+
+.customRadio label:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 2px solid #D8E2E7;
+    background-color: transparent;
+    transition: background-color 0.2s;
+}
+
+
+

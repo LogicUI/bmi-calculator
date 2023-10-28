@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.inter-variable{
+    font-family: url('../assets/fonts/Inter-VariableFont_slnt\,wght.ttf');
+}
+
+.inter-regular {
+    font-family: url('../assets/fonts/static/Inter-Regular.ttf')
+}
+
+.inter-semiBold {
+    font-family: url('../assets/fonts/static/Inter-SemiBold.ttf');
+}
+
+*, html {
+    font-family: url('../assets/fonts/Inter-VariableFont_slnt\,wght.ttf');
+}
+
+.textColor {
+    color: #5E6E85
+}
+
+.linearBackground{
+    min-height: 40rem;
+    position: relative;
+    background: linear-gradient(to right, #FFFFFF, #D6E6FE);
+}
+

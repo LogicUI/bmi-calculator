@@ -1,0 +1,14 @@
+.heroBackground {
+    min-height: 40rem;
+    position: relative;
+    background: linear-gradient(to right, #FFFFFF, #D6E6FE);
+}
+
+
+@media only screen and (min-width:	1024px ) {
+    .heroBackground{
+        background: linear-gradient(to left, #FFFFFF 50%, #D6E6FE 50%);
+        border-bottom-right-radius: 35px;
+
+    }
+}
