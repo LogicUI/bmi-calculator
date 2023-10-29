@@ -7,8 +7,7 @@
 
 @media only screen and (min-width:	1024px ) {
     .heroBackground{
-        background: linear-gradient(to left, #FFFFFF 50%, #D6E6FE 50%);
-        border-bottom-right-radius: 35px;
-
+        background: linear-gradient(270deg, rgba(255,255,255,0.9) 35%, rgba(214,230,254,0.9) 35%);
+        border-bottom-right-radius: 20rem;
     }
 }

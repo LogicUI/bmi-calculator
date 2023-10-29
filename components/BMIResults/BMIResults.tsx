@@ -61,7 +61,7 @@ const BMIResults = ({ bmiValue, selection, units }: BMIResultsProps) => {
 
   const shouldRenderBMIResults = () => {
     return (
-      <article className="w-100 bg-customBlue h-2/6 md:h-auto rounded-lg mt-8 text-left text-white md:rounded-br-full md:rounded-tr-full">
+      <article className="w-100 bg-customBlue h-auto rounded-lg mt-8 text-left text-white md:rounded-br-full md:rounded-tr-full">
         {bmiValue ? (
           <section className="p-8 md:flex">
             <section>
