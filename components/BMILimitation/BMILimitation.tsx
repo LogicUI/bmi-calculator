@@ -5,8 +5,10 @@ import {
   MuscleSVG,
   PregnancySVG,
   RaceIconSVG,
+  PatternCurveLineRightSVG,
 } from "../../assets/assets";
 import BMICard from "../BMICard/BMICard";
+import Image from "next/image";
 
 const cards = [
   {
@@ -75,6 +77,12 @@ const BMILimitation = () => {
         >
           Limitations of BMI
         </h1>
+        <Image
+          src={PatternCurveLineRightSVG}
+          alt="logo"
+          className="hidden lg:block absolute  left-1/4"
+        />
+        s
         <section
           className="md:flex md:justify-center lg:justify-start
             "
