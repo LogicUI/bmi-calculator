@@ -80,9 +80,10 @@ const BMILimitation = () => {
         <Image
           src={PatternCurveLineRightSVG}
           alt="logo"
+          style={{ top: "150%" }}
           className="hidden lg:block absolute  left-1/4"
         />
-        s
+
         <section
           className="md:flex md:justify-center lg:justify-start
             "
